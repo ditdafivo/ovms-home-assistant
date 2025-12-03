@@ -134,10 +134,11 @@ NISSAN_LEAF_METRICS = {
         "category": "nissan_leaf",
     },
     "xnl.v.b.hx": {
-        "name": "Nissan Leaf Heat Exchange",
-        "description": "Battery heat exchange value",
-        "icon": "mdi:heat-wave",
+        "name": "Nissan Leaf Battery Hx",
+        "description": "Battery internal resistance indicator (Hx) showing charging ability in percent",
+        "icon": "mdi:battery-heart",
         "state_class": SensorStateClass.MEASUREMENT,
+        "unit": PERCENTAGE,
         "category": "nissan_leaf",
     },
     "xnl.v.b.max.gids": {
